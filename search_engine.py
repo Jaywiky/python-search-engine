@@ -7,8 +7,8 @@ from nltk.corpus import stopwords
 import customtkinter as ctk
 import webbrowser
 import os
-# nltk.download('stopwords')
-# nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 stopwords = set(stopwords.words('english'))
 stemmer = PorterStemmer()
@@ -229,5 +229,6 @@ while quit!="q":
             except:
                 title = "Unknown"
             print("Found " + url + " │ Name: " + title + " │ Made By: " + publisher + " │ Score: " + str(score))
+
 
 
