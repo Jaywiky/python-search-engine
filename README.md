@@ -1,7 +1,3 @@
-CMP-5036A Search Engine Project
-Student ID: yrj24guu
-Domain: Video Games
-
 1. REQUIRED LIBRARIES
 
 To run this search engine, the following Python libraries must be installed. 
